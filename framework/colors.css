@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+
+/* ---------- Background colours ---------- */
+
+.bg-primary {
+    background-color: #212121;
+}
+
+.bg-secondary {
+    background-color: #303030;
+}
+
+.bg-white {
+    background-color: #e0e0e0;
+}
+
+.bg-lightGrey {
+    background-color: #dddddd;
+}
+
+.bg-grey {
+	background-color: #d0d0d0;
+}
+
+.bg-darkGrey {
+    background-color: #202020;
+}
+
+.bg-black {
+    background-color: #202020;
+}
+
+.bg-blueGrey {
+    background-color: #353a3c;
+}
+
+.bg-default {
+    background-color: #202020;
+}
+
+.bg-default2 {
+    background-color: #242424;
+}
+
+.bg-blueLight {
+	background-color: #4C5777;
+}
+
+.bg-blueDark {
+	background-color: #2F364A;
+}
+
+
+/* ---------- School colours ---------- */
+
+.bg-school1 {
+    background-color: #2d3439;
+}
+
+.bg-school2 {
+    background-color: #3c464d;
+}
+
+.bg-school3 {
+    background-color: #4c5861;
+}
+
+.bg-school4 {
+    background-color: #5c6b76;
+}
+
+
+/* ---------- Workbook colours ---------- */
+
+.bg-workbook1 {
+    background-color: #2d3039;
+}
+
+.bg-workbook2 {
+    background-color: #3c404d;
+}
+
+.bg-workbook3 {
+    background-color: #4c5161;
+}
+
+.bg-workbook4 {
+    background-color: #5c6276;
+}
+
+
+/* ---------- Gallery colours ---------- */
+
+.bg-gallery1 {
+    background-color: #312d39;
+}
+
+.bg-gallery2 {
+    background-color: #423c4d;
+}
+
+.bg-gallery3 {
+    background-color: #534c61;
+}
+
+.bg-gallery4 {
+    background-color: #655c76;
+}
+
+
+/* ---------- Photography colours ---------- */
+
+.bg-photography1 {
+    background-color: #2c3532;
+}
+
+.bg-photography2 {
+    background-color: #3a4742;
+}
+
+.bg-photography3 {
+    background-color: #4a5a54;
+}
+
+.bg-photography4 {
+    background-color: #5a6d65;
+}
+
+
+/* ---------- Grey colours ---------- */
+
+.bg-grey1 {
+    background-color: #242424;
+}
+
+.bg-grey2 {
+    background-color: #2f2f2f;
+}
+
+.bg-grey3 {
+    background-color: #3e3e3e;
+}
+
+.bg-grey4 {
+    background-color: #4d4d4d;
+}
+
+
+/* ---------- Text colours ---------- */
+
+.textColor-primary {
+    color: #f8f8f8;
+}
+
+.textColor-blog {
+    color: #e0e0e0;
+}
+
+.textColor-secondary {
+    color: #b0b0b0;
+}
+
+.textColor-tertiary {
+    color: #808080;
+}
+
+.textColor-white {
+    color: #ffffff;
+}
+
+.textColor-lightGrey {
+    color: #b0b0b0;
+}
+
+.textColor-darkGrey {
+    color: #606060;
+}
+
+.textColor-black {
+    color: #000000;
+}
+
+.textColor-link {
+	color: #a3b3ff;
+}
+
+
+/* ---------- Modifiers ---------- */
+
+.darker {
+	background-color: #0003;
+}
+
+.lighter {
+	background-color: #fff3;
+}
