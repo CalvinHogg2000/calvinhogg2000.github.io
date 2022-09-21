@@ -328,6 +328,7 @@ span {
 .card-title {
 	margin-left: 1rem;
 	margin-right: 1rem;
+	margin-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: 700;
 	text-overflow: clip;
@@ -700,7 +701,11 @@ span {
 }
 
 .textLink {
-	padding: 0.5rem;
+	color: #5c88e3;
+	user-select: none;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 0.5rem 0.75rem 0.5rem 0.75rem;
 	border-radius: 0.67rem;
 	transition: all 0.1s ease-out;
 	width: auto;
@@ -712,7 +717,7 @@ span {
 }
 
 .textLink:hover {
-	background-color: #a3b3ff30;
+	background-color: #5c88e330;
 }
 
 .textLink-icon {
@@ -738,7 +743,9 @@ span {
 }
 
 .objectLink {
-	padding: 1rem;
+	height: 6.2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	border-radius: 1rem;
 	background-color: #ffffff00;
 	display: flex;
@@ -751,9 +758,11 @@ span {
 }
 
 .objectLink-icon {
-	height: 4rem;
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 3.5rem;
 	display: flex;
-	margin-right: 1rem;
+	margin-right: 0.5rem;
 }
 
 .footer {
@@ -828,20 +837,15 @@ span {
 
 
 .portal {
-	height: 16rem;
+	height: 15rem;
     border-radius: 1rem;
     border: none;
-	scale: 1.0;
     box-shadow: 0rem 0.1rem 0.65rem #00000040;
+	background-color: #3a3a3a;
     background-position: center;
     background-size: cover;
     margin-bottom: 1rem;
 	cursor: pointer;
-	transition: all 0.15s ease-out;
-}
-
-.portal:hover {
-	scale: 1.05;
 }
 
 .newmodal-header {
@@ -875,6 +879,7 @@ span {
 .newmodal-image {
     border-radius: 0.75rem;
 	margin-top: 1.25rem;
+	background-color: #3a3a3a;
 }
 
 .newmodal-description {
