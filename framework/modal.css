@@ -75,7 +75,7 @@
   background-color: #242424;
   background-clip: padding-box;
   border-radius: 1.5rem;
-  box-shadow: 0rem 0rem 1.5rem #00000070;
+  box-shadow: 0rem 0.25rem 1.5rem #000000c0;
   outline: 0;
 }
 
@@ -86,7 +86,7 @@
   z-index: 900;
   width: 100vw;
   height: 100vh;
-  background-color: #101010;
+  background-color: #141414;
 }
 
 .modal-backdrop.fade {
@@ -94,7 +94,7 @@
 }
 
 .modal-backdrop.show {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .modal-title {
