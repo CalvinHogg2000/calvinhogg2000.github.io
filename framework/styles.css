@@ -196,35 +196,35 @@ span {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #3c464d00, #3c464dff);
+    background: linear-gradient(to bottom, #3c464d30, #3c464dff);
 }
 
 .pageBanner-fadeWorkbook {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #3c404d00, #3c404dff);
+    background: linear-gradient(to bottom, #3c404d30, #3c404dff);
 }
 
 .pageBanner-fadeProjects {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #2c353200, #2c3532ff);
+    background: linear-gradient(to bottom, #2c353230, #2c3532ff);
 }
 
 .pageBanner-fadePhotography {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #3a474200, #3a4742ff);
+    background: linear-gradient(to bottom, #3a474230, #3a4742ff);
 }
 
 .pageBanner-fadeGrey {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #2f2f2f00, #2f2f2fff);
+    background: linear-gradient(to bottom, #2f2f2f30, #2f2f2fff);
 }
 
 .pageBanner-text {
