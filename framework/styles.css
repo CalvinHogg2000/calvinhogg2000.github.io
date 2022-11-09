@@ -851,7 +851,7 @@ span {
 
 .newmodal-images {
 	margin-top: 1.25rem;
-	background-color: #101010;
+	background-color: #312d39;
 	border-radius: 1rem;
 }
 
@@ -864,7 +864,7 @@ span {
 	margin: 0px;
 	background-color: #312d39;
     border-radius: 0 0 0.75rem 0.75rem;
-	padding: 0.2rem 0.5rem 0.5rem 0.5rem;
+	padding: 0.4rem 0.4rem 0.75rem 0.4rem;
 	height: 8rem;
 }
 
@@ -873,7 +873,7 @@ span {
 	scale: 0.96;
 	width: 24.55%;
 	height: 100%;
-    border-radius: 0.75rem;
+    border-radius: 1rem;
 }
 
 .newmodal-description {
@@ -886,21 +886,20 @@ span {
 
 .newmodal-button {
 	border-radius: 0.75rem;
-	background-color: #585858;
+	background-color: #423c4d;
 	margin-bottom: 1rem;
 	width: calc(400px - 2rem);
     display: flex;
 	cursor: pointer;
 	border: solid;
 	border-width: 2px;
-	border-color: #303030ff;
-    box-shadow: 0rem 0rem 0rem #00000000;
+	border-color: #30303000;
+	box-shadow: 0rem 0.2rem 0.8rem #00000080;
 	transition: all 0.12s ease-out;
 }
 
 .newmodal-button:hover {
-	border-color: #30303000;
-	box-shadow: 0rem 0.2rem 0.8rem #00000080;
+	background-color: #534c61;
 }
 
 .newmodal-button-image {
