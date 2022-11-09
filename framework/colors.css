@@ -52,79 +52,22 @@
 }
 
 
-/* ---------- School colours ---------- */
-
-.bg-school1 {
-    background-color: #2d3439;
-}
-
-.bg-school2 {
-    background-color: #3c464d;
-}
-
-.bg-school3 {
-    background-color: #4c5861;
-}
-
-.bg-school4 {
-    background-color: #5c6b76;
-}
-
-
 /* ---------- Workbook colours ---------- */
 
-.bg-workbook1 {
-    background-color: #2d3039;
-}
-
-.bg-workbook2 {
-    background-color: #3c404d;
-}
-
-.bg-workbook3 {
-    background-color: #4c5161;
-}
-
-.bg-workbook4 {
-    background-color: #5c6276;
-}
-
-
-/* ---------- Gallery colours ---------- */
-
-.bg-gallery1 {
+.bg-projects1 {
     background-color: #312d39;
 }
 
-.bg-gallery2 {
+.bg-projects2 {
     background-color: #423c4d;
 }
 
-.bg-gallery3 {
+.bg-projects3 {
     background-color: #534c61;
 }
 
-.bg-gallery4 {
+.bg-projects4 {
     background-color: #655c76;
-}
-
-
-/* ---------- Photography colours ---------- */
-
-.bg-photography1 {
-    background-color: #2c3532;
-}
-
-.bg-photography2 {
-    background-color: #3a4742;
-}
-
-.bg-photography3 {
-    background-color: #4a5a54;
-}
-
-.bg-photography4 {
-    background-color: #5a6d65;
 }
 
 

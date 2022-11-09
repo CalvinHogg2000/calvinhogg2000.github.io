@@ -192,39 +192,11 @@ span {
     pointer-events: none;
 }
 
-.pageBanner-fadeSchool {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    background: linear-gradient(to bottom, #3c464d30, #3c464dff);
-}
-
-.pageBanner-fadeWorkbook {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    background: linear-gradient(to bottom, #3c404d30, #3c404dff);
-}
-
 .pageBanner-fadeProjects {
     width: 100%;
     height: 100%;
     display: flex;
-    background: linear-gradient(to bottom, #2c353230, #2c3532ff);
-}
-
-.pageBanner-fadePhotography {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    background: linear-gradient(to bottom, #3a474230, #3a4742ff);
-}
-
-.pageBanner-fadeGrey {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    background: linear-gradient(to bottom, #2f2f2f30, #2f2f2fff);
+    background: linear-gradient(to bottom, #423c4d30, #423c4dff);
 }
 
 .pageBanner-text {
@@ -585,7 +557,7 @@ span {
 	transition: all 0.1s ease-out;
 }
 
-.navbarLogo:hover {
+.navbarLogo-other:hover {
 	opacity: 100%;
     background-color: #ffffff36;
 }
@@ -857,7 +829,7 @@ span {
 
 .newmodal-section1 {
 	width: 800px;
-	background-color: #242424;
+	background-color: #423c4d;
 	color: #fff;
 	padding: 1rem;
 	border-radius: 1.5rem 0 0 1.5rem;
@@ -866,7 +838,7 @@ span {
 
 .newmodal-section2 {
 	width: 400px;
-	background-color: #3a3a3a;
+	background-color: #312d39;
 	padding: 1rem;
 	border-radius: 0 1.5rem 1.5rem 0;
 	margin: 0;
@@ -880,15 +852,17 @@ span {
 .newmodal-images {
 	margin-top: 1.25rem;
 	background-color: #101010;
-	border-radius: 0.75rem;
+	border-radius: 1rem;
 }
 
 .newmodal-images-feature {
-	border-radius: 0.75rem 0.75rem 0 0;
-	background-color: #3a3a3a;
+	border-radius: 1rem 1rem 0 0;
+	background-color: #312d39;
 }
 
 .newmodal-images-gallery {
+	margin: 0px;
+	background-color: #312d39;
     border-radius: 0 0 0.75rem 0.75rem;
 	padding: 0.2rem 0.5rem 0.5rem 0.5rem;
 	height: 8rem;
