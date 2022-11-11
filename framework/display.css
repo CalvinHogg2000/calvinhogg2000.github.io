@@ -268,6 +268,17 @@
 /* ---------- Desktop view ---------- */
 
 @media (min-width: 1420px) {
+	.modal-container {
+		flex-direction: row;
+	}
+
+	.newmodal-section1 {
+		width: 800px;
+	}
+
+	.newmodal-section2 {
+		width: 400px;
+	}
 
     .avatarContainer {
 		width: 400px;
@@ -432,5 +443,63 @@
 
 	.socialMediaNavbar {
 		display: inherit;
+	}
+}
+
+/* ---------- Narrow modal ---------- */
+@media (max-width: 1419.99px) {
+	.newmodal-section1 {
+		border-radius: 1.5rem 1.5rem 0 0;
+	}
+
+	.newmodal-section2 {
+		border-radius: 0 0 1.5rem 1.5rem;
+	}
+
+	.modal-dialog {
+		width: 800px;
+		margin-left: calc(50vw - 400px);
+		display: block;
+		flex-direction: column;
+	}
+
+	.modal-container {
+		flex-direction: column;
+	}
+}
+
+/* ---------- Really narrow modal ---------- */
+@media (max-width: 839.99px) {
+	.newmodal-section1 {
+		width: inherit;
+	}
+
+	.newmodal-section2 {
+		width: inherit;
+	}
+
+	.newmodal-images {
+		background-color: #00000000;
+	}
+
+	.newmodal-images-feature {
+		border-radius: 1rem;
+	}
+
+	.newmodal-images-gallery {
+		display: none;
+	}
+
+	.modal-dialog {
+		width: calc(100vw - 16px);
+		margin-left: 0;
+		padding: 8px !important;
+		margin: 8px !important;
+		display: block;
+		flex-direction: column;
+	}
+
+	.modal {
+		width: 100%;
 	}
 }

@@ -828,7 +828,6 @@ span {
 }
 
 .newmodal-section1 {
-	width: 800px;
 	background-color: #423c4d;
 	color: #fff;
 	padding: 1rem;
@@ -837,7 +836,6 @@ span {
 }
 
 .newmodal-section2 {
-	width: 400px;
 	background-color: #312d39;
 	padding: 1rem;
 	border-radius: 0 1.5rem 1.5rem 0;
@@ -891,10 +889,6 @@ span {
 	width: calc(400px - 2rem);
     display: flex;
 	cursor: pointer;
-	border: solid;
-	border-width: 2px;
-	border-color: #30303000;
-	box-shadow: 0rem 0.2rem 0.8rem #00000080;
 	transition: all 0.12s ease-out;
 }
 
